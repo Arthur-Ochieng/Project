@@ -98,11 +98,35 @@ a:hover{
 }
 .header1{
     text-align: left;
+    color: grey;
 }
 #show-details{
     display: none;
 }
-
+.sign{
+    margin-left: 270px;
+}
+#street{
+    font-size: 30px;
+}
+#phone{
+    font-size: 30px;
+}
+#env{
+    font-size: 30px;
+}
+.cont{
+    text-align: center;
+}
+#carousel::after{
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.69);
+    left: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+}
 
   
 

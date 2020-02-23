@@ -10,32 +10,37 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="navbar" class="navbar py-1 navbar-dark navbar-expand-sm bg-dark fixed-top">
-        <a href="#" class="navbar-brand text-uppercase font-italic"><img src="images/logo.jpeg" width="100" height="100" class="rounded-circle" alt=""></a>
+     <!--navbar-->
+     <div id="navbar" class="navbar py-1 navbar-dark navbar-expand-sm bg-dark fixed-top">
+        <!--logo-->
+        <a href="#" class="navbar-brand text-uppercase font-italic"><img src="images/logo.jpeg" width="100" height="100"class="rounded-circle" alt=""></a>
+        <h1 class="text-light font-italic">HAMISHWA MOVERS</h1>
         <button class="navbar-toggler" type="" data-toggle="collapse" data-target="#navbarLinks">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarLinks">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">HOME</a>
+                    <a href="./index.html" class="nav-link font-weight-bold text-light">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about" class="nav-link">ABOUT US</a>
+                    <a href="./about.html" class="nav-link font-weight-bold text-light">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a href="services" class="nav-link ">OUR SERVICES</a>
+                    <a href="./services.html" class="nav-link font-weight-bold text-light">OUR SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a href="book" class="nav-link">BOOK NOW</a>
+                    <a href="./orderform.html" class="nav-link font-weight-bold text-warning">BOOK NOW</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact" class="nav-link">CONTACT US</a>
+                    <a href="./contact.html" class="nav-link font-weight-bold text-light">CONTACT US</a>
                 </li>
             </ul>
         </div>
     </div>
+    <!--end of navbar-->
 
+    
 
 
 
@@ -46,6 +51,38 @@
     <div class="container"><br><br><br>
         <h2 class="quotation">Request A Quotation:</h2>
         <form>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" name="first-name" id="first-name" value size="40" class="form-control" placeholder="First Name">
+                </div> 
+                <div class="col-md=4">
+                    <input type="text" name="second-name" id="second-name" value size="40" class="form-control" placeholder="Second Name">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" name="email" id="email" value size="40" class="form-control" placeholder="Email">
+                </div>
+            </div><br>
+            <div class="row"> 
+                <div class="col-md-4">
+                    <input type="number" name="phone" id="phone" value size="40" class="form-control" placeholder="Phone">
+                </div>
+                <div class="col-md-4">
+                    <input type="number" name="id" id="id" value size="40" class="form-control" placeholder="Identification Number">
+                </div>
+            </div><br>
+            <div class="row"> 
+                <div class="col-md-4">
+                    <input type="number" name="address" id="address" value size="40" class="form-control" placeholder="Address">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header1">Desired date of relocation:</div>
+                    <input type="date" name="date" id="date" value size="40" class="form-control" placeholder="Date">
+                </div>
+            </div><br>
             <div class="row">
                 <div class="col-md-4">
                     <div class="header1">Select Type of Service:</div>
@@ -65,24 +102,6 @@
                         <option value="medium-truck">Medium Size Truck</option>
                         <option value="large-truck">Large Truck</option>
                     </select>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <input type="text" name="first-name" id="first-name" value size="40" class="form-control" placeholder="First Name">
-                </div> 
-                <div class="col-md=4">
-                    <input type="text" name="second-name" id="second-name" value size="40" class="form-control" placeholder="Second Name">
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <input type="text" name="email" id="email" value size="40" class="form-control" placeholder="Email">
-                </div>
-            </div><br>
-            <div class="row"> 
-                <div class="col-md-4">
-                    <input type="number" name="phone" id="phone" value size="40" class="form-control" placeholder="Phone">
                 </div>
             </div><br>
             <div class="row">
@@ -195,9 +214,9 @@
             <span class="hamisha">Hamisha Movers © 2019. All Rights Reserved</span>
         </div>           
     </section>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="/Project/js/jquery-3.4.1.js.js"></script>
+    <script src="/Project/js/bootstrap.bundle.js"></script>
+    <script src="/Project/js/scripts.js"></script>
     <script src="js/form.js"></script>
 </body>
 </html>
